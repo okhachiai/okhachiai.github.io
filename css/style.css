@@ -204,10 +204,10 @@ img { max-width: 100%; }
   z-index: 1;
   top: 0;
   left: 0;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #FE970A;
   display: block;
   padding: 0px 15px 5px 15px;
-  background: #ffffff;
+  background: rgba(254, 151, 10, 0.34);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -326,7 +326,7 @@ img { max-width: 100%; }
   height: 100%;
   right: 0;
   float: right;
-  background: #2f2f2f;
+  background: #33414E;
   padding: 2.5em 1.5em 0;
   -webkit-transform: translate3d(300px, 0, 0);
   transform: translate3d(300px, 0, 0);
@@ -526,11 +526,11 @@ p {
 .hero-content{
   position: absolute;
   text-align: center;
-  min-width: 300px;
+  min-width: 500px;
   left: 50%;
   top: 50%;
   padding: 65px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(254, 151, 10, 0.34);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
   -webkit-transform: translateX(-50%) translateY(-50%);
