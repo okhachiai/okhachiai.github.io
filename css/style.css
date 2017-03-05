@@ -1133,7 +1133,7 @@ ul.portfolio-image li .desc{
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 19.99999%;
   font-size: 13px;
 }
 
@@ -1181,9 +1181,21 @@ ul.portfolio-image li .desc{
   transform: translateY(100%);
 }
 
+.linkedin{
+  background: #ABABAB;
+}
+.linkedin a:after{
+  background-color: #0077B5;
+}
+
+.github{
+  background: #636a62;
+}
+.github a:after{
+  background-color: #24292e;
+}
 .facebook{
   background: #969696;
-  /*padding: 20px 0;*/
 }
 .facebook a:after{
   background-color: #527bbb;
