@@ -9,7 +9,8 @@
     $('.grid').masonry({
       itemSelector: '.grid-item'
       
-    });    
+    });
+    $("#age").html(getAge("1991-04-02"));    
   });
 
 
@@ -37,7 +38,6 @@
       });
     });
 
-    
     //scroll js
     smoothScroll.init({
       selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is M. KHACHIAI OUSSAMA", "I'm a Software Design Engineer", "And I Love Simplicity"],
+        strings: ["Je m'appelle KHACHIAI OUSSAMA", "Je suis Ingénieur d'études", "et développement PHP full stack", "et j'aime la simplicité", "My Name is M. KHACHIAI OUSSAMA", "I'm a Software Design Engineer", "And I Love Simplicity"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -194,5 +194,17 @@
       }
     });
   }
+
+  function getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    console.log(birthDate);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+}
 
 })(jQuery);

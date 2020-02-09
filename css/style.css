@@ -322,14 +322,14 @@ img { max-width: 100%; }
 .menu-wrap {
   position: fixed;
   z-index: 1001;
-  width: 300px;
+  width: 350px;
   height: 100%;
   right: 0;
   float: right;
   background: #33414E;
   padding: 2.5em 1.5em 0;
-  -webkit-transform: translate3d(300px, 0, 0);
-  transform: translate3d(300px, 0, 0);
+  -webkit-transform: translate3d(350px, 0, 0);
+  transform: translate3d(350px, 0, 0);
   -webkit-transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
@@ -908,12 +908,12 @@ ul.portfolio-image li .desc{
 }
 /*---------- f. quote -----------*/
 #about{
-  min-height: 650px;
+  min-height: 600px;
   display: inline-block;
   width: 100%;
 }
 .bg-about {
-  background: url('../images/oussama_khachiai.jpg');
+  background: url('../images/me.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
